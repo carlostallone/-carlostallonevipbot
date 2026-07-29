@@ -14,12 +14,15 @@ def start_mesaji(message):
     btn_referans = types.InlineKeyboardButton('⭐ Referanslar', url='https://t.me/+VIp0VyjFBR5mMDI0')
     
     markup.add(btn_stok, btn_market, btn_referans)
-    
     mesaj_metni = (
         "🛒 CARLOSTALLONE MARKET\n"
         "━━━━━━━━━━━━━━━━━━━━\n\n"
-        "Aşağıdaki butonları kullanarak kanallarımıza ulaşabilirsiniz:\n\n"
-        "━━━━━━━━━━━━━━━━━━━━"
+        "Aşağıdaki butonları ullanarak kanallarımıza ulaşabilirsiniz:\n\n"
+
+    "━━━━━━━━━━━━━━━━━━━━"
     )
+            
     
     bot.send_message(message.chat.id, mesaj_metni, reply_markup=markup)
+
+bot.infinity_polling()
