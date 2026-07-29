@@ -9,7 +9,7 @@ bot = telebot.TeleBot(TOKEN)
 def start_mesaji(message):
     markup = types.InlineKeyboardMarkup(row_width=1)
     
-    btn_stok = types.InlineKeyboardButton('📦 Ürün Stok', url='https://t.me/carlostallonestok')
+    btn_stok = types.InlineKeyboardButton('📦 Ürün Stok', url='https://t.me/+BIITaF5_eJA5Yjk0')
     btn_market = types.InlineKeyboardButton('🛍️ Market', url='https://t.me/+tJihrf02AOo2ZjU0')
     btn_referans = types.InlineKeyboardButton('⭐ Referanslar', url='https://t.me/+VIp0VyjFBR5mMDI0')
     
